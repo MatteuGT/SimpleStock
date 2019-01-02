@@ -1,5 +1,5 @@
 <?php
-include("includes/autoload.php");
+include("includes/dbconn.php");
 include("cmd/rate.php");
 include("cmd/pStat.php");
 include("cmd/tStat.php");
