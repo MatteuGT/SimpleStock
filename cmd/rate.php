@@ -1,5 +1,5 @@
 <?php
-function rate($rawData['itemRate']) {
+function rate($rawData) {
   //NULL
 }
 ?>
