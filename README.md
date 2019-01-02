@@ -1,2 +1,2 @@
 # SimpleStock
-Proprietary PHP Plugin/Framework for GrowStocks now OPEN-SOURCED!
+Proprietary PHP Plugin for GrowStocks now OPEN-SOURCED!
