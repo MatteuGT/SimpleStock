@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-BETA-blue.svg?style=for-the-badge&logo=appveyor)
 ![Issues](https://img.shields.io/github/issues/MatteuGT/SimpleStock.svg?style=for-the-badge&logo=appveyor)
 ![License](https://img.shields.io/github/license/MatteuGT/SimpleStock.svg?style=for-the-badge&logo=appveyor)<br>
-[![Build Status](https://travis-ci.org/MatteuGT/SimpleStock.svg?branch=master)](https://travis-ci.org/MatteuGT/SimpleStock)
+<!--[![Build Status](https://travis-ci.org/MatteuGT/SimpleStock.svg?branch=master)](https://travis-ci.org/MatteuGT/SimpleStock)-->
 
 ### Made with &hearts; by GrowStocks Development
 
