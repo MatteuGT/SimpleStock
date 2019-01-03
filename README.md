@@ -53,6 +53,7 @@ Of course we need to connect your database to the website itself for it to funct
   
   //This connects the whole website to the database:
   $conn = mysqli_connect($servername, $username, $password, $dbname);
+  
   //Error handler:
   if(!$conn){
     exit("Couldn't establish a database conection! Please refresh this page.");
