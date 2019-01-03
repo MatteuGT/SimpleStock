@@ -1,4 +1,4 @@
-# SimpleStock
+<a href="https://www.growstocks.ga" target="_blank"><img src="img/SimpleStock banner.png"></a>
 ### Made with &hearts; by GrowStocks Development
 ![Status](https://img.shields.io/badge/Status-BETA-blue.svg?style=for-the-badge&logo=appveyor)
 ![Issues](https://img.shields.io/github/issues/MatteuGT/SimpleStock.svg?style=for-the-badge&logo=appveyor)
@@ -16,7 +16,7 @@ Proprietary PHP Plugin for GrowStocks now OPEN-SOURCED!
 * Basic PHP skills
 
 ## What is SimpleStock?
-It is <a href="https://www.growstocks.ga">GrowStock's</a> proprietary plugin to make their website, it let's their developers do less code and make the most out of the function, hence the name SimpleStock. It's basically a library of commands that the developers use in their website pages, now we decided to make it open source so everyone can contribute to the project!
+It is <a href="https://www.growstocks.ga" target="_blank">GrowStock's</a> proprietary plugin to make their website, it let's their developers do less code and make the most out of the function, hence the name SimpleStock. It's basically a library of commands that the developers use in their website pages, now we decided to make it open source so everyone can contribute to the project!
 
 ## Terms of Use
 If you do want to use this library in your websites, webapps and apps, please do keep these points in mind:
