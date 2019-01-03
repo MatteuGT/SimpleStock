@@ -7,10 +7,25 @@
 
 Proprietary PHP Plugin for GrowStocks now OPEN-SOURCED!
 
-# Requirements
+## Requirements
 * PHP 7.1+
 * Text Editor (Prefferably VSCode or Sublime Text)
 * localhost
 * a database with the required columns (see below) [MySQL]
 
-# COMING SOON!
+## What is SimpleStock?
+It is <a href="https://www.growstocks.ga">GrowStock's</a> proprietary plugin to make their website, it let's their developers do less code and make the most out of the function, hence the name SimpleStock. It's basically a library of commands that the developers use in their website pages, now we decided to make it open source so everyone can contribute to the project!
+
+## Terms of Use
+If you do want to use this library in your websites, webapps and apps, please do keep these points in mind:
+* You can use the plugins as much as you want to, but do credit GrowStocks for the plugins used.
+
+## How to use
+Well we are still working on the functions needed but here are the first steps on making the plugins work.
+
+#### 1. Database creation
+Make sure that you make a MySQL database (via phpMyAdmin) with the following columns:
+
+| rowID | ID | itemName | itemQty | itemWls | itemRate | itemStatus | itemDemand |
+| ----- | -- | -------- | ------- | ------- | -------- | ---------- | ---------- |
+|   01  | 0  | Blank    | 0       | 0       | NULL     | UNDEF      |  UNDEF     |
