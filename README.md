@@ -10,8 +10,10 @@ Proprietary PHP Plugin for GrowStocks now OPEN-SOURCED!
 ## Requirements
 * PHP 7.1+
 * Text Editor (Prefferably VSCode or Sublime Text)
-* localhost
+* Local Server (localhost:3600)
 * a database with the required columns (see below) [MySQL]
+* Basic MySQL Database management skills
+* Basic PHP skills
 
 ## What is SimpleStock?
 It is <a href="https://www.growstocks.ga">GrowStock's</a> proprietary plugin to make their website, it let's their developers do less code and make the most out of the function, hence the name SimpleStock. It's basically a library of commands that the developers use in their website pages, now we decided to make it open source so everyone can contribute to the project!
@@ -29,3 +31,31 @@ Make sure that you make a MySQL database (via phpMyAdmin) with the following col
 | rowID | ID | itemName | itemQty | itemWls | itemRate | itemStatus | itemDemand |
 | ----- | -- | -------- | ------- | ------- | -------- | ---------- | ---------- |
 |   01  | 0  | Blank    | 0       | 0       | NULL     | UNDEF      |  UNDEF     |
+
+#### 2. Inclusion of files
+Make sure that the files of this library is in the same folder as the website. After that, include the `autoload.php` file to the pages you want the plugin to be in by adding this to the top of the file:
+```php
+<?php
+  include("autoload.php");
+?>
+```
+Just by adding this command on top, will automatically load every command needed in the files.
+
+#### 3. Connection
+Of course we need to connect your database to the website itself for it to function. Now, open the `includes` directory and click the `dbconn.php` file. Now fill up the file with the following:
+
+```php
+<?php
+  $servername = "localhost (if it's a remote database, please change the localhost to the appropriate server name/address";
+  $username = "(your database username here)";
+  $password = "(your database password here)";
+  $dbname = "(the database name goes here)";
+  
+  //This connects the whole website to the database:
+  $conn = mysqli_connect($servername, $username, $password, $dbname);
+  //Error handler:
+  if(!$conn){
+    exit("Couldn't establish a database conection! Please refresh this page.");
+  }
+?>
+```
