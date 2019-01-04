@@ -62,3 +62,17 @@ Of course we need to connect your database to the website itself for it to funct
   }
 ?>
 ```
+
+#### 4. Commands
+Once everything is in place, it's time to use the commands in the library.
+
+| Command | Function |
+| ------- | -------- |
+| `rate($rawData)` | it auto calculates the rate of an item. |
+| `price($rawData)` | it retrieves the compiled price of an item, it combines the two string variables ` $data['itemQty']` & `$data['itemWls']`. |
+| `status($rawData)` | it determines the current price status of the item. |
+| `trend($rawData)` | it determines the current trend status of the item. |
+| `rec($rawData)` | it determines the recommendation status of an item. |
+
+| More commands to produce soon! |
+| ------------------------------ |
