@@ -48,7 +48,7 @@ Of course we need to connect your database to the website itself for it to funct
 
 ```php
 <?php
-  $servername = "localhost (if it's a remote database, please change the localhost to the appropriate server name/address";
+  $servername = "localhost (if it's a remote database, please change the localhost to the appropriate server name/address)";
   $username = "(your database username here)";
   $password = "(your database password here)";
   $dbname = "(the database name goes here)";
